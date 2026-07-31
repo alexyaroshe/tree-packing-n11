@@ -1,3 +1,4 @@
+# second solver (independent, diff order & heuristics)
 import argparse
 import os
 import random

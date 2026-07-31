@@ -1,3 +1,4 @@
+# CNF encoding, kissat, drat trim
 import argparse
 import os
 import subprocess

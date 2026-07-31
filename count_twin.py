@@ -1,3 +1,4 @@
+# naive packing counter
 import argparse
 import sys
 from itertools import product

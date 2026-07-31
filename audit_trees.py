@@ -1,3 +1,4 @@
+# networkx & OEIS A000055 tree validation
 import sys
 from collections import defaultdict
 

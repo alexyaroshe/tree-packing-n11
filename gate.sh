@@ -1,3 +1,4 @@
+# gate
 set -uo pipefail
 cd "$(dirname "$0")"
 HERE="$(pwd)"

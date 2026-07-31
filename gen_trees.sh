@@ -1,3 +1,4 @@
+# gentreeg (nauty) tree generator
 set -euo pipefail
 NMAX="${1:?usage: gen_trees.sh NMAX [outfile]}"
 OUT="${2:-trees.txt}"

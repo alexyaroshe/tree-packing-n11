@@ -1,3 +1,4 @@
+# certificate checker (E1-E6)
 import argparse
 import os
 import sys
