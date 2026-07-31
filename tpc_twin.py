@@ -1,4 +1,7 @@
 # second solver (independent, diff order & heuristics)
+# trees.txt -> read_trees -> dfs_order -> greedy place, own order
+# fails -> escalate_to_sat -> kissat + drat trim
+# out: LEDGER-TWIN line
 import argparse
 import os
 import random

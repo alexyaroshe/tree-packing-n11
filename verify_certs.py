@@ -1,4 +1,7 @@
 # certificate checker (E1-E6)
+# --cert + trees.txt -> load_reference_trees -> check each cert
+# E1 permutation, E2 legal pairs, E3 k verts k-1 edges, E4 connected, E5 ahu match, E6 one per sequence
+# out: VERIFIED line, or FAIL E<n> index=<i>
 import argparse
 import os
 import sys

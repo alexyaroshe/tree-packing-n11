@@ -1,4 +1,10 @@
 // solver
+// trees.txt -> load_trees -> check_tree_counts -> compute_tree_features
+// per sequence: probe_accept -> handle_sequence
+// handle_sequence: greedy_attempt xGREEDY_RESTARTS -> stage A
+// fails -> run_exact -> stage B
+// fails -> STAGE-B-UNSAT -> .unsat
+// out: cert bytes (T_n..T_2), difficulty if --stats, LEDGER line
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
