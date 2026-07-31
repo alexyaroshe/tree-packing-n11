@@ -12,6 +12,7 @@
 | `audit_trees.py` | networkx & OEIS A000055 tree validation |
 | `gate.sh` | gate |
 | `gen_trees.sh` | gentreeg (nauty) tree generator |
+| `analyze_margins.py` | margins analysis |
 
 Method, verification protocol and certificate format are specified in my paper.
 
